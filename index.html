@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+</head>
+
+<body>
+
+    <div class="calculadora">
+        <input class="tela">
+        <button onclick="LimparTela()" class="botao-cinza ">AC</button>
+        <button onclick="MaisOuMenos()" class="botao-cinza ">+/-</button>
+        <button onclick="ColocarNumeroNaTela('/')" class="botao-azul">/</button>
+        <button onclick="ColocarNumeroNaTela('*')" class="botao-azul">*</button>
+        <button onclick="ColocarNumeroNaTela('7')" class="botao-preto">7</button>
+        <button onclick="ColocarNumeroNaTela('8')" class="botao-preto">8</button>
+        <button onclick="ColocarNumeroNaTela('9')" class="botao-preto">9</button>
+        <button onclick="ColocarNumeroNaTela('-')" class="botao-azul">-</button>
+        <button onclick="ColocarNumeroNaTela('4')" class="botao-preto">4</button>
+        <button onclick="ColocarNumeroNaTela('5')" class="botao-preto">5</button>
+        <button onclick="ColocarNumeroNaTela('6')" class="botao-preto">6</button>
+        <button onclick="ColocarNumeroNaTela('+')" class="botao-azul">+</button>
+        <button onclick="ColocarNumeroNaTela('1')" class="botao-preto">1</button>
+        <button onclick="ColocarNumeroNaTela('2')" class="botao-preto">2</button>
+        <button onclick="ColocarNumeroNaTela('3')" class="botao-preto">3</button>
+        <button onclick="Calculos()" class="botao-azul-claro igualdade">=</button>
+        <button onclick="ColocarNumeroNaTela('0')" class="botao-preto zero">0</button>
+        <button onclick="ColocarNumeroNaTela('.')" class="botao-preto">.</button>
+
+    </div>
+
+
+</body>
+<script src="scripts.js"></script>
+
+</html>
